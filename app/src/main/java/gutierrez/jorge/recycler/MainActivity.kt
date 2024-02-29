@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
         etTitulo = findViewById(R.id.etNombre)
         btnGuardar = findViewById(R.id.btnGuardar)
         listaTareas = findViewById(R.id.rvTareas)
-        etDesc = findViewById(R.id.etDesc)
         btnBorrar = findViewById(R.id.btnGuardar)
 
         tareasViewModel.elementos.add(
@@ -49,8 +48,7 @@ class MainActivity : AppCompatActivity() {
         btnGuardar.setOnClickListener {
 
             val titulo = etTitulo.text.toString()
-            val descrip = etDesc.text.toString()
-            tareasViewModel.elementos.add(Tarea(titulo,descrip,false))
+            tareasViewModel.elementos.add(Tarea(titulo,titulo,false))
 
             adapter.notifyDataSetChanged()
             Toast.makeText(this,"${tareasViewModel.elementos.size}",Toast.LENGTH_SHORT).show()
