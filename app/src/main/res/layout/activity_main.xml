@@ -34,6 +34,13 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <SeekBar
+            android:id="@+id/skBarra"
+            android:layout_width="331dp"
+            android:layout_height="24dp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="97dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
