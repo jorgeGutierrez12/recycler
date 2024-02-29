@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var btnGuardar:Button
     lateinit var listaTareas:RecyclerView
     lateinit var adapter:TareasAdapter
-    lateinit var etDesc : EditText
     lateinit var btnBorrar: Button
 
     private val tareasViewModel:TareasViewModel by viewModels()
