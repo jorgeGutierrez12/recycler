@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.ArrayAdapter
-import android.widget.Button
 import android.widget.EditText
 import android.widget.ListView
+import android.widget.SeekBar
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.GridLayoutManager
@@ -16,11 +16,9 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
     lateinit var etTitulo: EditText
-    lateinit var btnGuardar:Button
     lateinit var listaTareas:RecyclerView
     lateinit var adapter:TareasAdapter
-    lateinit var btnBorrar: Button
-    lateinit var skBarra : skBarra
+    lateinit var skBarra : SeekBar
 
     private val tareasViewModel:TareasViewModel by viewModels()
 
@@ -29,15 +27,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         etTitulo = findViewById(R.id.etNombre)
-        btnGuardar = findViewById(R.id.btnGuardar)
-        listaTareas = findViewById(R.id.rvTareas)
-        btnBorrar = findViewById(R.id.btnGuardar)
+        skBarra = findViewById(R.id.skBarra)
 
-        tareasViewModel.elementos.add(
+        listaTareas = findViewById(R.id.rvTareas)
+
+        /*tareasViewModel.elementos.add(
             Tarea("",
                 "",
                 false)
-        )
+        */)
 
         adapter = TareasAdapter(tareasViewModel.elementos)
 
@@ -45,14 +43,18 @@ class MainActivity : AppCompatActivity() {
         listaTareas.layoutManager = GridLayoutManager(this,
             1)
 
-        btnGuardar.setOnClickListener {
+        val i = 0
+        skBarra.progress
+
+
+        /*btnGuardar.setOnClickListener {
 
             val titulo = etTitulo.text.toString()
             tareasViewModel.elementos.add(Tarea(titulo,titulo,false))
 
             adapter.notifyDataSetChanged()
             Toast.makeText(this,"${tareasViewModel.elementos.size}",Toast.LENGTH_SHORT).show()
-        }
+       */ }
 
     }
 }

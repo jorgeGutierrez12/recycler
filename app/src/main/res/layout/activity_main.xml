@@ -14,23 +14,13 @@
 
         <EditText
             android:id="@+id/etNombre"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/btnGuardar"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/btnGuardar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="4dp"
-            android:text="Guardar"
+            android:layout_width="311dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="50dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <SeekBar
@@ -38,12 +28,12 @@
             style="@style/Widget.AppCompat.SeekBar.Discrete"
             android:layout_width="300dp"
             android:layout_height="22dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="68dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="56dp"
             android:max="12"
             android:progress="0"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnGuardar" />
+            app:layout_constraintTop_toBottomOf="@+id/etNombre" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
