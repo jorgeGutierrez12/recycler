@@ -19,7 +19,6 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
-            android:text="Titulo"
             app:layout_constraintEnd_toStartOf="@+id/btnGuardar"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -36,10 +35,15 @@
 
         <SeekBar
             android:id="@+id/skBarra"
-            android:layout_width="331dp"
-            android:layout_height="24dp"
-            tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="97dp" />
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="300dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="68dp"
+            android:max="12"
+            android:progress="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGuardar" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

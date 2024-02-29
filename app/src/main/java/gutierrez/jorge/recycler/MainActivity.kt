@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var listaTareas:RecyclerView
     lateinit var adapter:TareasAdapter
     lateinit var btnBorrar: Button
+    lateinit var skBarra : skBarra
 
     private val tareasViewModel:TareasViewModel by viewModels()
 
