@@ -35,8 +35,8 @@ class MainActivity : AppCompatActivity() {
         btnBorrar = findViewById(R.id.btnGuardar)
 
         tareasViewModel.elementos.add(
-            Tarea("Piratear nintendo",
-                "Es obligatorio",
+            Tarea("",
+                "",
                 false)
         )
 
