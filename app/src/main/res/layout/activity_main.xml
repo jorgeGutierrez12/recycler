@@ -12,28 +12,30 @@
         android:layout_height="match_parent"
         android:layout_weight="1">
 
-        <EditText
-            android:id="@+id/etNombre"
-            android:layout_width="311dp"
-            android:layout_height="45dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="44dp"
-            android:layout_marginEnd="50dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <SeekBar
             android:id="@+id/skBarra"
             style="@style/Widget.AppCompat.SeekBar.Discrete"
             android:layout_width="300dp"
             android:layout_height="22dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="49dp"
             android:layout_marginEnd="56dp"
             android:max="12"
             android:progress="0"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="287dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="54dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
