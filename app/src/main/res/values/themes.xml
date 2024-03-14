@@ -5,10 +5,7 @@
         <item name="colorPrimary">#FF000000</item>
         <item name="colorPrimaryDark">#2B0303</item>
         <item name="colorSecondary">#988787</item>
-
         <item name="colorAccent">#5E0202</item>
-
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
     <style name="Theme.Recycler" parent="Base.Theme.Recycler" />
