@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pad_5dp">3</dimen>
+    <dimen name="space_component3x">15dp</dimen>
+    <dimen name="pad_10dp">10dp</dimen>
+    <dimen name="card_detail_mount_margin">45dp</dimen>
+    <dimen name="space_big">20dp</dimen>
+    <dimen name="fab_margin">10dp</dimen>
+    <dimen name="space_component5x">25dp</dimen>
+    <dimen name="negative_margin_design_fab_size_mini">10dp</dimen>
+    <dimen name="card_detail_mount_text_size">25dp</dimen>
+    <dimen name="space_component2x">10dp</dimen>
+</resources>

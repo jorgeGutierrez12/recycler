@@ -60,14 +60,5 @@ class MainActivity : AppCompatActivity() {
             override fun onStopTrackingTouch(seekBar: SeekBar?) {}
         })
 
-            /*btnGuardar.setOnClickListener {
-
-            val titulo = etTitulo.text.toString()
-            tareasViewModel.elementos.add(Tarea(titulo,titulo,false))
-
-            adapter.notifyDataSetChanged()
-            Toast.makeText(this,"${tareasViewModel.elementos.size}",Toast.LENGTH_SHORT).show()
-        }*/
-
         }
 }
