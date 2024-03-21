@@ -2,6 +2,10 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Recycler" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
+        <item name="android:windowBackground">#2B076E</item>
+        <item name="colorPrimary">#9F6926</item>
+        <item name="colorPrimaryDark">#5D4037</item>
+        <item name="colorAccent">#700404</item>
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
 </resources>

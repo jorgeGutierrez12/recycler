@@ -2,10 +2,10 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Recycler" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <item name="android:windowBackground">#D7CCC8</item>
-        <item name="colorPrimary">#795548</item>
+        <item name="android:windowBackground">#CC3C08</item>
+        <item name="colorPrimary">#9F6926</item>
         <item name="colorPrimaryDark">#5D4037</item>
-        <item name="colorAccent">#9E9E9E</item>
+        <item name="colorAccent">#700404</item>
 
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>

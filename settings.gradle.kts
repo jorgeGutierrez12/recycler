@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "recycler"
+rootProject.name = "recycler_jorge"
 include(":app")
  
